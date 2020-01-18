@@ -1,6 +1,6 @@
 Name:           perl-Template-Toolkit
 Version:        2.24
-Release:        5%{?dist}
+Release:        3%{?dist}
 Summary:        Template processing system
 Group:          Development/Libraries
 License:        GPL+ or Artistic
@@ -103,12 +103,6 @@ rm -rf $RPM_BUILD_ROOT
 %{_mandir}/man3/*.3*
 
 %changelog
-* Fri Jan 24 2014 Daniel Mach <dmach@redhat.com> - 2.24-5
-- Mass rebuild 2014-01-24
-
-* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 2.24-4
-- Mass rebuild 2013-12-27
-
 * Thu Feb 14 2013 Fedora Release Engineering <rel-eng@lists.fedoraproject.org> - 2.24-3
 - Rebuilt for https://fedoraproject.org/wiki/Fedora_19_Mass_Rebuild
 
